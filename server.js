@@ -36,7 +36,7 @@ var htmlTemplate = `
               <h3> ${heading}  </h3>    
              </div>
              <div>
-             <h2> ${date}<h2>
+             <h4> ${date}<h4>
              </div>
             <h3> This is First page made using html </h3>
             <div>
