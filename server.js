@@ -63,7 +63,7 @@ app.get('/page-one',function (req,res){
 });
 
 app.get('/Articleone',function (req,res){
-    res.send(createmplate(Articleone));
+    res.send(creaTemplate(Articleone));
 });
 
 app.get('/ui/style.css', function (req, res) {
