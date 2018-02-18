@@ -46,8 +46,19 @@ var htmlTemplate = `
         <title>
             ${title}
         </title>
+        <style>
+        .container{
+          max-width:800px;
+          margin: 0 auto;
+          color:red;
+         font-family:san-serif;
+         padding-left: 20px;
+          padding-right: 20px;  
+}  
+        }
+    </head>
         <body>
-            
+            <div class="container">
                 <a href="/">Home</a>
              <div>
              <hr/>
@@ -58,10 +69,11 @@ var htmlTemplate = `
              </div>
             <h3> This is First page made using html </h3>
             <div>
+            <div class="container">
             ${content}
             </div>
         </body>
-    </head>
+    
 </html>
 `;
 return htmlTemplate;
