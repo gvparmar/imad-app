@@ -11,7 +11,7 @@ var Articleone ={
     date :'feb 23 2018',
     content:`
     hi welcome all hi welcome all hi welcome allhi welcome allhi welcome allhi welcome allhi welcome all
-    hi welcome allhi welcome allhi welcome allhi welcome all hi welcome all hi welcome all.'
+    hi welcome allhi welcome allhi welcome allhi welcome all hi welcome all hi welcome all.
     `
 };
 
@@ -22,7 +22,7 @@ function creatTemplate (data){
     var content = data.content;
     
     
-ver htmlTemplate = `
+ver htmlTemplate =`
 <html>
     <head>
        
