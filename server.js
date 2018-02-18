@@ -59,7 +59,7 @@ app.get('/page-one',function (req,res){
     res.send('Article one requested and will be served here');
 });
 
-app.get('/Articleone',function (req,res){
+app.get('/articleone',function (req,res){
     res.send(creaTemplate(articleone));
 });
 
