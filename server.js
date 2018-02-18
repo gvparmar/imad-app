@@ -23,6 +23,43 @@ var Articleone ={
     ,
 };
 
+function creattemplate (date){
+    var title = data.title;
+    var date = data.date;
+    var heading = data.heading;
+    var content = data.content;
+    
+    
+ver htmltemplate = '
+<html>
+    <head>
+       
+        <title>
+            ${title}
+        </title>
+        <body>
+            
+                <a href="/">Home</a>
+             <div>
+              <h3> ${heading}  </h3>    
+             </div>
+             <div>
+             <h2> ${date}<h2>
+             </div>
+            <h3> This is First page made using html </h3>
+            <div>
+            ${content}
+            </div>
+               
+            
+        
+        </body>
+    </head>
+<html>';
+return htmltemplate;
+}
+
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
@@ -33,7 +70,7 @@ app.get('/page-one',function (req,res){
 });
 
 app.get('/Articleone',function (req,res){
-    res.sendFile(path.join(__dirname, 'ui', 'Articleone.html'));
+    res.send(createmplate(Articleone));
 });
 
 app.get('/ui/style.css', function (req, res) {
