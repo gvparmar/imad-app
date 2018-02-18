@@ -46,15 +46,7 @@ var htmlTemplate = `
         <title>
             ${title}
         </title>
-        <style>
-        .container{
-          max-width:800px;
-          margin: 0 auto;
-          color:red;
-         font-family:san-serif;
-         padding-left: 20px;
-          padding-right: 20px;  
-        }
+       
     </head>
         <body>
                 <a href="/">Home</a>
