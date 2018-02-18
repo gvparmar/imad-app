@@ -54,7 +54,6 @@ var htmlTemplate = `
          font-family:san-serif;
          padding-left: 20px;
           padding-right: 20px;  
-}  
         }
     </head>
         <body>
