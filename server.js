@@ -29,11 +29,11 @@ var htmlTemplate = `
         <title>
             ${title}
         </title>
-        <hr/>
         <body>
             
                 <a href="/">Home</a>
              <div>
+             <hr/>
               <h3> ${heading}  </h3>    
              </div>
              <div>
