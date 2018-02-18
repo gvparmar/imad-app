@@ -5,9 +5,9 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var Articleone ={
-    title: 'Article || GVPARMAR',
-    heading: 'Article-one',
+var articleone ={
+    title: 'article || GVPARMAR',
+    heading: 'article-one',
     date :'feb 23 2018',
     content:`
     hi welcome all hi welcome all hi welcome allhi welcome allhi welcome allhi welcome allhi welcome all
@@ -60,7 +60,7 @@ app.get('/page-one',function (req,res){
 });
 
 app.get('/Articleone',function (req,res){
-    res.send(creaTemplate(Articleone));
+    res.send(creaTemplate(articleone));
 });
 
 app.get('/ui/style.css', function (req, res) {
