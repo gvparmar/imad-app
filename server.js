@@ -42,9 +42,6 @@ ver htmlTemplate = `
             <div>
             ${content}
             </div>
-               
-            
-        
         </body>
     </head>
 </html>
