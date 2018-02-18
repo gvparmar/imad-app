@@ -14,8 +14,8 @@ app.get('/page-one',function (req,res){
     res.send('Article one requested and will be served here');
 });
 
-app.get('/page-2',function (req,res){
-    res.sendFile(path.join(__dirname, 'ui', 'page-2.html'));
+app.get('/Article-one',function (req,res){
+    res.sendFile(path.join(__dirname, 'ui', 'Article-one.html'));
 });
 
 app.get('/ui/style.css', function (req, res) {
