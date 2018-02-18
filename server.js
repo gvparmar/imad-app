@@ -47,7 +47,7 @@ ver htmlTemplate = `
         
         </body>
     </head>
-<html>
+</html>
 `;
 return htmlTemplate;
 }
