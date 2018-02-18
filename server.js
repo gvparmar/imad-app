@@ -9,28 +9,20 @@ var Articleone ={
     title: 'Article || GVPARMAR',
     heading: 'Article-one',
     date :'feb 23 2018',
-    content:,
-    
-     Q-1   what is microprocessor?
-           Ans:It is a program controlled semi conductor device (IC), which fetches, Decodes and execute instructions.
-    
-    
-     Q-2 what is the function of program counter? A1: - program counter is the 16 bit counter.
-
-            1.   Sequncelly program run.
-            2.   If contain the memory address of the instruction which is next fetched.
-
-    ,
+    content:`
+    hi welcome all hi welcome all hi welcome allhi welcome allhi welcome allhi welcome allhi welcome all
+    hi welcome allhi welcome allhi welcome allhi welcome all hi welcome all hi welcome all.'
+    `
 };
 
-function creattemplate (date){
+function creatTemplate (data){
     var title = data.title;
     var date = data.date;
     var heading = data.heading;
     var content = data.content;
     
     
-ver htmltemplate = '
+ver htmltemplate = `
 <html>
     <head>
        
@@ -55,8 +47,8 @@ ver htmltemplate = '
         
         </body>
     </head>
-<html>';
-return htmltemplate;
+<html>`;
+return htmlTemplate;
 }
 
 
