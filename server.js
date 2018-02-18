@@ -8,7 +8,7 @@ app.use(morgan('combined'));
 var articleone ={
     title: 'Article || GVPARMAR',
     heading: 'Article-one',
-    date :'feb 23 2018',
+    date :'Feb 23 2018',
     content:`
     hi welcome all hi welcome all hi welcome allhi welcome allhi welcome allhi welcome allhi welcome all
     hi welcome allhi welcome allhi welcome allhi welcome all hi welcome all hi welcome all.
@@ -29,6 +29,7 @@ var htmlTemplate = `
         <title>
             ${title}
         </title>
+        <hr/>
         <body>
             
                 <a href="/">Home</a>
