@@ -22,7 +22,7 @@ function creatTemplate (data){
     var content = data.content;
     
     
-ver htmltemplate = `
+ver htmlTemplate = `
 <html>
     <head>
        
@@ -47,7 +47,8 @@ ver htmltemplate = `
         
         </body>
     </head>
-<html>`;
+<html>
+`;
 return htmlTemplate;
 }
 
