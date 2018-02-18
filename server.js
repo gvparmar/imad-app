@@ -5,7 +5,9 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var articleone ={
+var articles = {
+    
+var articleone : {
     title: 'Article || GVPARMAR',
     heading: 'Article-one',
     date :'Feb 23 2018',
@@ -13,6 +15,21 @@ var articleone ={
     hi welcome all hi welcome all hi welcome allhi welcome allhi welcome allhi welcome allhi welcome all
     hi welcome allhi welcome allhi welcome allhi welcome all hi welcome all hi welcome all.
     `
+},
+    articletwo : { title: 'Article || GVPARMAR',
+    heading: 'Article-two',
+    date :'Feb 24 2018',
+    content:`
+    hi welcome all hi welcome all hi welcome allhi welcome allhi welcome allhi welcome allhi welcome all
+    hi welcome allhi welcome allhi welcome allhi welcome all hi welcome all hi welcome all.
+    `},
+    articlethree :{ title: 'Article || GVPARMAR',
+    heading: 'Article-three',
+    date :'Feb 25 2018',
+    content:`
+    hi welcome all hi welcome all hi welcome allhi welcome allhi welcome allhi welcome allhi welcome all
+    hi welcome allhi welcome allhi welcome allhi welcome all hi welcome all hi welcome all.
+    `}
 };
 
 function createTemplate (data){
