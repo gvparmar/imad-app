@@ -22,7 +22,7 @@ function creatTemplate (data){
     var content = data.content;
     
     
-ver htmlTemplate =`
+var htmlTemplate = `
 <html>
     <head>
        
