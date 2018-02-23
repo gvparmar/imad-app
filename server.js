@@ -132,8 +132,8 @@ app.post('/login', functin(req, res){
                 res.send('credential correct!');
             }else {
                res.send(403).send('username/password is invalid');
-        } else{ 
             }
+         } 
         }   
     });
 }); 
