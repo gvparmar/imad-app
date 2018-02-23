@@ -104,7 +104,7 @@ app.get('/test-db', function(req,res){
 app.get('/articles/:articleName', function (req, res) {
  // res.sendFile(path.join(__dirname, 'ui', 'article1.html'));
  
- pool.query("SELECT * FROM article WHERE title =$1",[req.params.artilcleName],function(err,result){
+ pool.query("SELECT * FROM article WHERE title =$1",[req.params.articleName],function(err,result){
      if (err)
      {
         res.status(500).send(err.toString());
