@@ -1,7 +1,7 @@
 console.log('Loaded!');
-var element = document.getElementById('main-text'
+/*var element = document.getElementById('main-text'
 );
-element.innerHTML = 'Avpti RAJKOT';
+element.innerHTML = 'Avpti RAJKOT';*/
 
 
 var img = document.getElementById('madi');
