@@ -112,7 +112,7 @@ app.post('/creat-user', function(req,res){
 });
 
 
-app.post('/login', functin(req, res){
+app.post('/login', function(req, res){
     var username =req.body.username;
     var password = req.body.passwoord;
     
