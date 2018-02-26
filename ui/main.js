@@ -2,7 +2,7 @@ var submit= document.getElementById('submit_btn');
 submit.onclick=function (){
     var request = new XMLHttpRequest();
     request.onreadystatechange = function(){
-        if (request.redystate===XMLHttpRequest.Done){
+        if (request.readystate===XMLHttpRequest.Done){
             if(request.status===200){
                 alert('Login Sucessfully');
             }else if(request.status===403){
