@@ -114,7 +114,7 @@ app.post('/creat-user', function(req,res){
 
 app.post('/login', function(req, res){
     var username =req.body.username;
-    var password = req.body.passwoord;
+    var password = req.body.password;
     
     var dbString = hash(password, salt);
     
